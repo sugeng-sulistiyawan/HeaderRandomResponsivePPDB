@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
+
+.main-content {
+	margin: 0 auto;
+	padding: 0 60px;
+}
+.main-header {
+	margin: 0 auto;
+	max-width: 1058px;
+	position: relative;
+}
+.header-img {
+	width: 100%;
+}
+.caption-marquee {
+	font-family: 'Hind', sans-serif;
+	font-size: 14px;
+	color: #F9F9F9;
+	background-color: #263238;
+	position: absolute;
+	padding: 10px 20px;	
+	border-top: 4px solid #90A4AE;
+	width: 100%;
+	bottom: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.main-content {
+		padding: 0 48px;
+	}
+	.caption-marquee {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+
+	.main-content {
+		padding: 0 40px;
+	}
+	.caption-marquee {
+		padding: 12px 18px;
+		font-size: 12px;
+		border-top-width: 3px;
+		bottom: 4px;
+	}
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+	.main-content {
+		padding: 0 32px;
+	}
+	.caption-marquee {
+		padding: 6px 14px;
+		font-size: 10px;		
+		border-top-width: 3px;
+		bottom: 2px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.main-content {
+		padding: 0;
+	}
+	.caption-marquee {
+		padding: 4px 10px;
+		font-size: 8px;		
+		border-top-width: 1px;
+		bottom: 0;
+	}
+
+}
