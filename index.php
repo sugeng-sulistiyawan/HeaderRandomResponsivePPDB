@@ -22,7 +22,7 @@ $k = rand(1, 3);
     
 </head>
 <body>
-    <div class="main-content">
+    <div class="container fluid-xs">
         <div class="main-header">
         	<img class="header-img" src="img/head<?= $i ?>.png">
         	<div class="caption-marquee">
@@ -33,7 +33,7 @@ $k = rand(1, 3);
 
     <div style="margin-top: 32px"></div>
 
-    <div class="main-content">
+    <div class="container fluid-xs">
         <div class="main-header">
             <img class="header-img" src="img/head<?= $j ?>.png">
             <div class="caption-marquee">
@@ -44,7 +44,7 @@ $k = rand(1, 3);
 
     <div style="margin-top: 32px"></div>
 
-    <div class="main-content">
+    <div class="container fluid-xs">
         <div class="main-header">
             <img class="header-img" src="img/head<?= $k ?>.png">
             <div class="caption-marquee">

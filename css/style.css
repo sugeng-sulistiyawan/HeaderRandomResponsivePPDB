@@ -1,9 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Hind:300,500);
 
-.main-content {
-	margin: 0 auto;
-	padding: 0 60px;
-}
 .main-header {
 	margin: 0 auto;
 	max-width: 1058px;
@@ -26,9 +22,6 @@
 
 @media only screen and (max-width: 1024px) {
 
-	.main-content {
-		padding: 0 48px;
-	}
 	.caption-marquee {
 		font-size: 13px;
 	}
@@ -36,9 +29,6 @@
 
 @media only screen and (max-width: 992px) {
 
-	.main-content {
-		padding: 0 40px;
-	}
 	.caption-marquee {
 		padding: 12px 18px;
 		font-size: 12px;
@@ -50,9 +40,6 @@
 
 @media only screen and (max-width: 768px) {
 
-	.main-content {
-		padding: 0 32px;
-	}
 	.caption-marquee {
 		padding: 6px 14px;
 		font-size: 10px;		
@@ -64,8 +51,11 @@
 
 @media only screen and (max-width: 480px) {
 
-	.main-content {
-		padding: 0;
+	.fluid-xs {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
 	}
 	.caption-marquee {
 		padding: 4px 10px;
