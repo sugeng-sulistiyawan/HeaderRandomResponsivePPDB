@@ -1,22 +1,16 @@
 <?php
 
-if (date('s') % 3 == 0) {
-    $i = 1;
-} else if (date('s') % 7 == 0) {
-    $i = 2;
+$i = rand(1, 3);
+if ($i == 1) {
+    $j = $i+1;
+    $k = $i+2;
+} else if ($i == 2) {
+    $j = $i-1;
+    $k = $i+1;   
 } else {
-    $i = 3;
-};
-
-if (date('s') % 2 == 0) {
-    $j = 1;
-} else if (date('s') % 5 == 0) {
-    $j = 2;
-} else {
-    $j = 3;
-};
-
-$k = rand(1, 3);
+    $j = $i-1;
+    $k = $i-2;   
+}
 
 ?>
 <!DOCTYPE html>
@@ -40,7 +34,7 @@ $k = rand(1, 3);
         <div class="main-header">
         	<img class="header-img" src="img/head<?= $i ?>.png">
         	<div class="caption-marquee">
-        		<marquee><strong>LOREM IPSUM COLOR SIT DOT AMET</strong></marquee>
+        		<marquee>LOREM IPSUM COLOR SIT DOT AMET, <strong>LOREM IPSUM COLOR SIT DOT AMET</strong></marquee>
         	</div>
         </div>
     </div>
@@ -51,7 +45,7 @@ $k = rand(1, 3);
         <div class="main-header">
             <img class="header-img" src="img/head<?= $j ?>.png">
             <div class="caption-marquee">
-                <marquee><strong>LOREM IPSUM COLOR SIT DOT AMET</strong></marquee>
+                <marquee>LOREM IPSUM COLOR SIT DOT AMET, <strong>LOREM IPSUM COLOR SIT DOT AMET</strong></marquee>
             </div>
         </div>
     </div>
@@ -62,7 +56,7 @@ $k = rand(1, 3);
         <div class="main-header">
             <img class="header-img" src="img/head<?= $k ?>.png">
             <div class="caption-marquee">
-                <marquee><strong>LOREM IPSUM COLOR SIT DOT AMET</strong></marquee>
+                <marquee>LOREM IPSUM COLOR SIT DOT AMET, <strong>LOREM IPSUM COLOR SIT DOT AMET</strong></marquee>
             </div>
         </div>
     </div>
