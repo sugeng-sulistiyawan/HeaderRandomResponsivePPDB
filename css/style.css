@@ -11,12 +11,12 @@
 .caption-marquee {
 	font-family: 'Hind', sans-serif;
 	font-size: 14px;
+	width: 100%;
 	color: #F9F9F9;
 	background-color: #263238;
 	position: absolute;
 	padding: 10px 20px;	
 	border-top: 4px solid #FFF;
-	width: 100%;
 	bottom: 4px;
 }
 
